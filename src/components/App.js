@@ -1,6 +1,8 @@
 import React from "react";
-import AddTodoForm from "./AddTodoForm";
+import AddTodoForm from "../containers/AddTodoForm";
+import TodosContainer from '../containers/TodosContainer'
 import "./App.css";
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
         <h1>My Todo List</h1>
       </header>
       <AddTodoForm />
+      <TodosContainer />
     </div>
   );
 }
